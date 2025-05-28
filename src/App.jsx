@@ -31,7 +31,7 @@ function App() {
     <div className="p-4">
 
       <nav className="flex justify-between items-center bg-green-600 text-white px-6 py-3">
-        <Link to="/" className="text-xl font-bold">Store</Link>
+        <Link to="/" className="text-xl font-bold">Fake Store</Link>
 
         <Link to="/cart" className="text-sm bg-white text-blue-600 px-3 py-1 rounded">
           Cart ({cart.length})

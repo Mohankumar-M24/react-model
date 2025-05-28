@@ -19,9 +19,9 @@ function CartPage({ cart, removeFromCart, updateQuantity }) {
 
               <div>
                 <h2 className="font-bold">{item.title}</h2>
-                <p>Price: ₹ {item.price}</p>
+                <p> Price: ₹ {item.price}</p>
 
-                <p>Total: ₹ {(item.price * item.quantity).toFixed(2)}</p>
+                <p> Total: ₹ {(item.price * item.quantity).toFixed(2)}</p>
               </div>
               <div className="flex items-center gap-2">
                 <button onClick={() => updateQuantity(item.id, -1)} className="px-2 py-1 bg-gray-200">-</button>
